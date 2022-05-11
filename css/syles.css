@@ -7,7 +7,7 @@
 .maintitle{
     background-image:url(../imagenes/fondoola.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     background-attachment: fixed;
     padding: 30px;
 }
@@ -88,7 +88,7 @@
 @media screen and (min-width:0px) and (max-width:1023px){
 
     .contenedorslider{
-        width: 80%;
+        width: 90%;
         margin: auto;
     }
 }
