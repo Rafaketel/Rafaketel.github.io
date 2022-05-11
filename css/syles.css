@@ -26,6 +26,10 @@
     width: 60px;
 }
 
+.container-fluid a{
+    padding-left: 30px;
+}
+
 .nav-item1{
     padding: 20px;
 }
