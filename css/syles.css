@@ -1,0 +1,125 @@
+
+.body1{
+    background-color:white;
+    margin: 0;
+}
+
+.maintitle{
+    background-image:url(../imagenes/fondoola.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 30px;
+}
+
+.maintitle h1{
+    font-family: 'Righteous', cursive;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 500%;
+    color: black;
+}
+
+/* Inicio de Nav Bootstrap*/
+
+.logo{
+    width: 60px;
+}
+
+.productos1{
+    font-family: 'Akshar', sans-serif;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.productos1:hover{
+    color: white;
+}
+
+.nav1:hover{
+    color: white;
+}
+
+.nav1 {
+    font-family: 'Akshar', sans-serif;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.contenedornav1{
+    display: flex;
+    justify-content: center;
+}
+
+.dropdownn{
+    font-family: 'Akshar', sans-serif;
+    font-size: 20px;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.dropdownn:hover{
+    background-color: rgba(68, 68, 68, 0.116);
+    color: black;
+}
+
+
+/* Fin de Nav Bootstrap*/
+
+/*Inicio de Slider Bootstrap*/
+
+@media screen and (min-width:1024px){
+
+    .contenedorslider{
+        width: 60%;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:1023px){
+
+    .contenedorslider{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+
+
+/*Fin de Slider Bootstrap*/
+
+.titulo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.titulo h1{
+    color: black;
+    font-family: 'Righteous', cursive;
+    padding: 50px;
+}
+
+.articulo1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.articulo1 p{
+    color: black;
+    font-size: 130%;
+    font-family: 'Akshar', sans-serif;
+    padding: 15px;   
+}
