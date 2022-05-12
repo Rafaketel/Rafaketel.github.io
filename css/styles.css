@@ -108,22 +108,29 @@
 
 .articulo1 p{
     color: black;
-    font-size: 130%;
     font-family: 'Akshar', sans-serif;
     padding: 15px;   
 }
 
 @media screen and (min-width:1024px){
 
+    .articulo1 p{
+        font-size: 25px;
+    }
+
     .titulo h1{
-        font-size: 50px;
+        font-size: 45px;
     }
 }
 
 @media screen and (min-width:0px) and (max-width:1023px){
 
+    .articulo1 p{
+        font-size: 10px;
+    }
+
     .titulo h1{
-        font-size: 15px;
+        font-size: 20px;
     }
 }
 
