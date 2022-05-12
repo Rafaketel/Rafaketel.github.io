@@ -1,26 +1,4 @@
-
-.body1{
-   background-color: white;
-}
-
-.contenedormain{
-    width: 100%;
-    margin: 0 auto;
-}
-
-
-
-.maintitle h1{
-    font-family: 'Righteous', cursive;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-size: 500%;
-    color: black;
-}
-
-/* Inicio de Nav Bootstrap*/
+/* Inicio de Bootstrap NavBar */
 
 .logo{
     width: 60px;
@@ -28,10 +6,6 @@
 
 .container-fluid a{
     padding-left: 30px;
-}
-
-.nav-item1{
-    padding: 20px;
 }
 
 .productos1{
@@ -46,10 +20,6 @@
     color: white;
 }
 
-.nav1:hover{
-    color: white;
-}
-
 .nav1 {
     font-family: 'Akshar', sans-serif;
     font-size: 25px;
@@ -58,9 +28,8 @@
     padding: 10px;
 }
 
-.contenedornav1{
-    display: flex;
-    justify-content: center;
+.nav1:hover{
+    color: white;
 }
 
 .dropdownn{
@@ -79,8 +48,23 @@
     color: black;
 }
 
+.nav-item{
+    padding: 20px;
+}
 
-/* Fin de Nav Bootstrap*/
+
+/* Final de Bootstrap NavBar */
+
+.contenedorarticulo1 h1{
+    font-family: 'Righteous', cursive;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 250%;
+    color: black;
+    padding: 30px;
+}
 
 /*Inicio de Slider Bootstrap*/
 
@@ -100,9 +84,7 @@
     }
 }
 
-
-
-/*Fin de Slider Bootstrap*/
+/* Final de Slider Bootstrap*/
 
 .titulo{
     display: flex;
@@ -133,3 +115,4 @@
     font-family: 'Akshar', sans-serif;
     padding: 15px;   
 }
+
