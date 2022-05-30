@@ -39,7 +39,6 @@
     text-decoration: none;
     color: black;
     display: flex;
-    justify-content: center;
     padding: 20px;
 }
 
@@ -54,14 +53,6 @@
 
 
 /* Final de Bootstrap NavBar */
-
-.contenedorarticulo1 h1{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 30px;
-}
 
 /*Inicio de Slider Bootstrap*/
 
@@ -83,39 +74,32 @@
 
 /* Final de Slider Bootstrap*/
 
-.titulo{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-
-
 .titulo h1{
     color: black;
     font-family: 'Righteous', cursive;
     padding: 50px;
-    
-}
-
-.articulo1{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+
+}
+
+.contenedorarticulo1{
+    padding: 30px;
+    max-width: 50%;
+    margin: auto;
 }
 
 .articulo1 p{
     color: black;
     font-family: 'Akshar', sans-serif;
-    padding: 15px;   
 }
 
 @media screen and (min-width:1024px){
 
     .articulo1 p{
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .titulo h1{
@@ -126,7 +110,7 @@
 @media screen and (min-width:0px) and (max-width:1023px){
 
     .articulo1 p{
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .titulo h1{
