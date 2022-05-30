@@ -1,3 +1,25 @@
+#background{
+    background-color: white;
+}
+
+#background2{
+    background-color: black;
+}
+
+.contenidotitulo h1{
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    color: black; 
+    padding: 30px;
+}
+
+.contenidotitulo2{
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    color: white; 
+    padding: 30px;
+}
+
 /* Inicio de Bootstrap NavBar */
 
 .logo{
@@ -74,32 +96,49 @@
 
 /* Final de Slider Bootstrap*/
 
-.titulo h1{
-    color: black;
-    font-family: 'Righteous', cursive;
-    padding: 50px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
 
-}
 
-.contenedorarticulo1{
+.contenidoarticulo1{
     padding: 30px;
-    max-width: 50%;
-    margin: auto;
 }
+
 
 .articulo1 p{
     color: black;
     font-family: 'Akshar', sans-serif;
 }
 
+.articulo2 p{
+    color: white;
+    font-family: 'Akshar', sans-serif;
+}
+
+#imagenes1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#imagenes1 img{
+    width: 50%;
+}
+
+/* Inicio de Media Query */
+
 @media screen and (min-width:1024px){
 
     .articulo1 p{
         font-size: 20px;
+        width: 60%;
+        margin: auto;
+    }
+
+    .articulo2{
+        font-size: 20px;
+        width: 60%;
+        margin: auto;
+        padding: 15px;
     }
 
     .titulo h1{
@@ -111,10 +150,71 @@
 
     .articulo1 p{
         font-size: 15px;
+        width: 80%;
+        margin: auto;
+    }
+
+    .articulo2{
+        font-size: 15px;
+        width: 80%;
+        margin: auto;
+        padding: 20px;
     }
 
     .titulo h1{
-        font-size: 20px;
+        font-size: 15px;
     }
 }
 
+/* Fin de Media Query */
+
+#navbackground{
+    background-color: black;
+    padding: 30px;
+    
+}
+
+.navv3 a{
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.navv3 a:hover{
+    color: red;
+}
+
+.navv3 li{
+    font-family: 'Akshar', sans-serif;
+    list-style-type: none;
+    font-size: 25px;
+    padding: 15px;
+}
+
+/* Inicio de Footer */
+
+.contenidofooter{
+    background-color: gray;
+    padding: 40px;
+}
+
+.footerbox{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-direction: center;
+}
+
+.footerbox h2{
+    margin: auto;
+    font-family: 'Righteous', cursive;  
+}
+
+.footerbox p{
+    margin: auto;
+    font-family: 'Akshar', sans-serif;
+}
+
+/* Fin de Footer */
