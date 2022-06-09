@@ -148,7 +148,7 @@
         margin: auto;
     }
 
-    .articulo2{
+    .articulo2 p{
         font-size: 20px;
         width: 60%;
         margin: auto;
@@ -174,7 +174,7 @@
         margin: auto;
     }
 
-    .articulo2{
+    .articulo2 p{
         font-size: 17px;
         width: 80%;
         margin: auto;
@@ -205,13 +205,12 @@
         margin: auto;
     }
 
-    .articulo2{
+    .articulo2 p{
         font-size: 15px;
         width: 90%;
         margin: auto;
         padding: 20px;
     }
-
 
     .footerbox h2{
         width: 80%;
@@ -236,13 +235,12 @@
         margin: auto;
     }
 
-    .articulo2{
+    .articulo2 p{
         font-size: 15px;
         width: 90%;
         margin: auto;
         padding: 20px;
     }
-
 
     .footerbox h2{
         width: 80%;
