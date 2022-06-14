@@ -302,7 +302,6 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    
 }
 
 .cards{
@@ -350,7 +349,108 @@
     color: white;
 }
 
+.btn-danger{
+    justify-content: right;
+}
+
 /*Fin Card*/
+
+/*Inicio Cards Skate*/
+
+.containerr{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #161518;
+}
+
+.card-body{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+}
+
+.cardd{
+    width: 340px;
+    
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    float: left; 
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    background: rgba(255,255,255,0.1);
+    border-radius: 14px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    transition: all 300ms;
+}
+
+.cardd img{
+    margin: auto;
+    width: 60%;
+}
+
+.cardd:hover{
+    transform: translateY(-10px);
+}
+
+.card-title{
+    font-family: 'Righteous', cursive;
+    color: white;
+    margin: auto;
+    width: 100%;
+    
+}
+
+.card-text{
+    font-family: 'Righteous', cursive;
+    color: white;
+    width: 80%;
+}
+
+.Agregar{
+    font-family: 'Righteous', cursive;
+    width: 70%;
+    margin: auto;
+}
+
+/*Fin Cards Skate*/
+
+
+
+
+
+/*Inicio Carrito*/
+
+.row h2{
+    font-size: 200%;
+    font-family: 'Righteous', cursive;
+    padding: 20px;
+    color: white;
+    margin: 30px;
+}
+
+.text-right{
+    width: 100%;
+    font-family: 'Righteous', cursive;
+    font-size: 150%;
+    margin: 30px;
+    color: white;
+
+}
+
+#boton-vaciar{
+    width: 60%;
+    margin: auto;
+
+}
+
+/*Fin Carrito*/
 
 /* Inicio de Footer */
 
