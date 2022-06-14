@@ -2,63 +2,123 @@
 const baseDeDatos = [
   {
       id: 1,
-      nombre: 'Skate1',
+      nombre: 'Santa Cruz Dollar Flame Dot',
       precio: 17999,
       imagen: '../images/SKATESANTACRUZ1.png'
   },
   {
       id: 2,
-      nombre: 'Skate2',
+      nombre: 'Santa Cruz Crane Dot',
       precio: 24999,
       imagen: '../images/SKATESANTACRUZ2.png'
   },
   {
       id: 3,
-      nombre: 'Skate3',
-      precio: 17999,
+      nombre: 'Santa Cruz Rad Dot',
+      precio: 24999,
       imagen: '../images/SKATESANTACRUZ3.png'
   },
   {
       id: 4,
-      nombre: 'Skate4',
-      precio: 24999,
-      imagen: '../images/SKATESANTACRUZ3.png'
+      nombre: 'Santa Cruz Lucky Cat',
+      precio: 17999,
+      imagen: '../images/SKATESANTACRUZ4.png'
   },
   {
       id: 5,
-      nombre: 'Skate5',
-      precio: 24999,
-      imagen: '../images/SKATESANTACRUZ3.png'
+      nombre: 'Santa Cruz Wooten Alive',
+      precio: 17999,
+      imagen: '../images/SKATESANTACRUZ5.png'
   },
   {
     id: 6,
-    nombre: 'Skate6',
-    precio: 17999,
-    imagen: '../images/SKATESANTACRUZ1.png'
+    nombre: 'Creature Erosion',
+    precio: 24999,
+    imagen: '../images/SKATECREATURE1.png'
 },
 {
     id: 7,
-    nombre: 'Skate7',
-    precio: 24999,
-    imagen: '../images/SKATESANTACRUZ2.png'
+    nombre: 'Creature Russell Skull',
+    precio: 17999,
+    imagen: '../images/SKATECREATURE2.png'
 },
 {
     id: 8,
-    nombre: 'Skate8',
+    nombre: 'Creature Russell',
     precio: 17999,
-    imagen: '../images/SKATESANTACRUZ3.png'
+    imagen: '../images/SKATECREATURE3.png'
 },
 {
     id: 9,
-    nombre: 'Skate9',
-    precio: 24999,
-    imagen: '../images/SKATESANTACRUZ3.png'
+    nombre: 'Creature Martinez',
+    precio: 17999,
+    imagen: '../images/SKATECREATURE4.png'
 },
 {
     id: 10,
-    nombre: 'Skate10',
+    nombre: 'Creature Deathcard',
     precio: 24999,
-    imagen: '../images/SKATESANTACRUZ3.png'
+    imagen: '../images/SKATECREATURE5.png'
+},
+{
+    id: 11,
+    nombre: 'Santa Cruz Flier Hand',
+    precio: 34999,
+    imagen: '../images/COMPLETESANTACRUZ1.png'
+},
+{
+    id: 12,
+    nombre: 'Santa Cruz Screaming Hand',
+    precio: 34999,
+    imagen: '../images/COMPLETESANTACRUZ2.png'
+},
+{
+    id: 13,
+    nombre: 'Santa Cruz Classic Dot',
+    precio: 34999,
+    imagen: '../images/COMPLETESANTACRUZ3.png'
+},
+{
+    id: 14,
+    nombre: 'Santa Cruz Dot',
+    precio: 34999,
+    imagen: '../images/COMPLETESANTACRUZ4.png'
+},
+{
+    id: 15,
+    nombre: 'Santa Cruz Flier Dot',
+    precio: 34999,
+    imagen: '../images/COMPLETESANTACRUZ5.png'
+},
+{
+  id: 16,
+  nombre: 'Creature Prowler',
+  precio: 34999,
+  imagen: '../images/COMPLETECREATURE1.png'
+},
+{
+  id: 17,
+  nombre: 'Creature Deathcard',
+  precio: 34999,
+  imagen: '../images/COMPLETECREATURE2.png'
+},
+{
+  id: 18,
+  nombre: 'Creature Metallic Logo',
+  precio: 34999,
+  imagen: '../images/COMPLETECREATURE3.png'
+},
+{
+  id: 19,
+  nombre: 'Creature Mummy Logo',
+  precio: 34999,
+  imagen: '../images/COMPLETECREATURE4.png'
+},
+{
+  id: 20,
+  nombre: 'Creature Large Logo',
+  precio: 34999,
+  imagen: '../images/COMPLETECREATURE5.png'
 },
 
 ];
@@ -91,6 +151,10 @@ function renderizarProductos() {
       const miNodoImagen = document.createElement('img');
       miNodoImagen.classList.add('img-fluid');
       miNodoImagen.setAttribute('src', info.imagen);
+      //Descripcion
+      const miNodoDescripcion = document.createElement('p');
+      miNodoDescripcion.classList.add('description');
+      miNodoDescripcion.textContent = info.description;
       // Precio
       const miNodoPrecio = document.createElement('p');
       miNodoPrecio.classList.add('card-text');
@@ -144,7 +208,7 @@ function renderizarCarrito() {
       }, 0);
       // Creamos el nodo del item del carrito
       const miNodo = document.createElement('li');
-      miNodo.classList.add('list-group-item', 'text-right', 'mx-2');
+      miNodo.classList.add('list-group-item', 'text-right', 'mx-auto');
       miNodo.textContent = `${numeroUnidadesItem} x ${miItem[0].nombre} - ${miItem[0].precio}${divisa}`;
       // Boton de borrar
       const miBoton = document.createElement('button');

@@ -17,7 +17,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
     <!--Fin de fuentes utilizadas-->
 </head>
-<body>
+<body class="bodyy">
     
 <!--Inicio de Bootstrap Navbar-->
 <nav class="navbar navbar-expand-lg navbar-light" style="background-color:red ;">
@@ -40,7 +40,9 @@
       <li class="nav-item">
         <a class="nav1" href="../pages/aboutus.html"><b>SOBRE NOSOTROS</b></a>
       </li>
-      
+      <li class="nav-item">
+        <a class="nav1" href="#Carrito"><b>CARRITO</b></a>
+      </li>
     </li>
     </ul>
   </div>
@@ -51,7 +53,7 @@
 <div class="background3">
   <div class="contenedorarticulo">
     <div class="contenidotitulo2">
-      <h1><b>DECKS</b></h1>
+      <h1 id="DECKS"><b>KETELSHOP SKATEBOARDS</b></h1>
     </div>
   </div>
 
@@ -61,10 +63,10 @@
         <main id="items" class="cardsss"></main>
         <!-- Carrito -->
         <br>
-            <h2>Carrito</h2>
+            <h2 id="Carrito">CARRITO DE COMPRAS</h2>
             <!-- Elementos del carrito -->
             <ul id="carrito" class="list-group"></ul>
-            <hr>
+            
             <!-- Precio total -->
             <p class="text-right">Total: <span id="total"></span>$</p>
             <button id="boton-vaciar" class="btn btn-danger">Borrar todo</button>
@@ -76,7 +78,7 @@
   <nav class="iniciobutton">
     <ul>
       <li>
-        <a href="../pages/skateboard.html" title="HOME"><b>INICIO</b></a>
+        <a href="#DECKS" title="HOME"><b>INICIO</b></a>
       </li>
     </ul>
   </nav>
