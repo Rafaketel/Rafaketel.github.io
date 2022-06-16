@@ -3,120 +3,140 @@ const baseDeDatos = [
   {
       id: 1,
       nombre: 'Santa Cruz Dollar Flame',
+      description:'Santa Cruz Deck, Fabricada con 7 capas de maple canadiense prensado individualmente para una mayor resistencia de la misma',
       precio: 17999,
       imagen: '../images/SKATESANTACRUZ1.png'
   },
   {
       id: 2,
       nombre: 'Santa Cruz Crane Dot',
+      description:'Santa Cruz Deck, Fabricada con 7 capas de maple canadiense prensado individualmente para una mayor resistencia de la misma',
       precio: 24999,
       imagen: '../images/SKATESANTACRUZ2.png'
   },
   {
       id: 3,
       nombre: 'Santa Cruz Rad Dot',
+      description:'Santa Cruz Deck, Fabricada con 7 capas de maple canadiense prensado individualmente para una mayor resistencia de la misma',
       precio: 24999,
       imagen: '../images/SKATESANTACRUZ3.png'
   },
   {
       id: 4,
       nombre: 'Santa Cruz Lucky Cat',
+      description:'Santa Cruz Deck, Fabricada con 7 capas de maple canadiense prensado individualmente para una mayor resistencia de la misma',
       precio: 17999,
       imagen: '../images/SKATESANTACRUZ4.png'
   },
   {
       id: 5,
       nombre: 'Santa Cruz Wooten Alive',
+      description:'Santa Cruz Deck, Fabricada con 7 capas de maple canadiense prensado individualmente para una mayor resistencia de la misma',
       precio: 17999,
       imagen: '../images/SKATESANTACRUZ5.png'
   },
   {
     id: 6,
     nombre: 'Creature Erosion',
+    description:'Creature Deck, Fabricada con 7 capas de maple canadiense prensado individualmente para una mayor resistencia de la misma',
     precio: 24999,
     imagen: '../images/SKATECREATURE1.png'
 },
 {
     id: 7,
     nombre: 'Creature Russell Skull',
+    description:'Creature Deck, Fabricada con 7 capas de maple canadiense prensado individualmente para una mayor resistencia de la misma',
     precio: 17999,
     imagen: '../images/SKATECREATURE2.png'
 },
 {
     id: 8,
     nombre: 'Creature Russell',
+    description:'Creature Deck, Fabricada con 7 capas de maple canadiense prensado individualmente para una mayor resistencia de la misma',
     precio: 17999,
     imagen: '../images/SKATECREATURE3.png'
 },
 {
     id: 9,
     nombre: 'Creature Martinez',
+    description:'Creature Deck, Fabricada con 7 capas de maple canadiense prensado individualmente para una mayor resistencia de la misma',
     precio: 17999,
     imagen: '../images/SKATECREATURE4.png'
 },
 {
     id: 10,
     nombre: 'Creature Deathcard',
+    description:'Creature Deck, Fabricada con 7 capas de maple canadiense prensado individualmente para una mayor resistencia de la misma',
     precio: 24999,
     imagen: '../images/SKATECREATURE5.png'
 },
 {
     id: 11,
     nombre: 'Santa Cruz Flier Hand',
+    description:'Santa Cruz Complete, Skateboard pre armado con los mejores productos de la marca, Hecha de 7 capas de maple canadiense',
     precio: 34999,
     imagen: '../images/COMPLETESANTACRUZ1.png'
 },
 {
     id: 12,
     nombre: 'Santa Cruz Screaming ',
+    description:'Santa Cruz Complete, Skateboard pre armado con los mejores productos de la marca, Hecha de 7 capas de maple canadiense',
     precio: 34999,
     imagen: '../images/COMPLETESANTACRUZ2.png'
 },
 {
     id: 13,
     nombre: 'Santa Cruz Classic Dot',
+    description:'Santa Cruz Complete, Skateboard pre armado con los mejores productos de la marca, Hecha de 7 capas de maple canadiense',
     precio: 34999,
     imagen: '../images/COMPLETESANTACRUZ3.png'
 },
 {
     id: 14,
     nombre: 'Santa Cruz Dot',
+    description:'Santa Cruz Complete, Skateboard pre armado con los mejores productos de la marca, Hecha de 7 capas de maple canadiense',
     precio: 34999,
-    imagen: '../images/COMPLETESANTACRUZ4.png'
+    imagen: '../images/COMPLETESANTACRUZ4.png',
 },
 {
     id: 15,
     nombre: 'Santa Cruz Flier Dot',
+    description:'Santa Cruz Complete, Skateboard pre armado con los mejores productos de la marca, Hecha de 7 capas de maple canadiense',
     precio: 34999,
     imagen: '../images/COMPLETESANTACRUZ5.png'
 },
 {
   id: 16,
   nombre: 'Creature Prowler',
+  description:'Creature Complete, Skateboard pre armado con los mejores productos de la marca, Hecha de 7 capas de maple canadiense',
   precio: 34999,
   imagen: '../images/COMPLETECREATURE1.png'
 },
 {
   id: 17,
   nombre: 'Creature Deathcard',
+  description:'Creature Complete, Skateboard pre armado con los mejores productos de la marca, Hecha de 7 capas de maple canadiense',
   precio: 34999,
   imagen: '../images/COMPLETECREATURE2.png'
 },
 {
   id: 18,
   nombre: 'Creature Metallic Logo',
+  description:'Creature Complete, Skateboard pre armado con los mejores productos de la marca, Hecha de 7 capas de maple canadiense',
   precio: 34999,
   imagen: '../images/COMPLETECREATURE3.png'
 },
 {
   id: 19,
   nombre: 'Creature Mummy Logo',
+  description:'Creature Complete, Skateboard pre armado con los mejores productos de la marca, Hecha de 7 capas de maple canadiense',
   precio: 34999,
   imagen: '../images/COMPLETECREATURE4.png'
 },
 {
   id: 20,
   nombre: 'Creature Large Logo',
+  description:'Creature Complete, Skateboard pre armado con los mejores productos de la marca, Hecha de 7 capas de maple canadiense',
   precio: 34999,
   imagen: '../images/COMPLETECREATURE5.png'
 },
@@ -165,6 +185,7 @@ function renderizarProductos() {
       // Insertamos
       miNodoCardBody.appendChild(miNodoImagen);
       miNodoCardBody.appendChild(miNodoTitle);
+      miNodoCardBody.appendChild(miNodoDescripcion)
       miNodoCardBody.appendChild(miNodoPrecio);
       miNodoCardBody.appendChild(miNodoBoton);
       miNodo.appendChild(miNodoCardBody);
