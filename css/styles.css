@@ -363,7 +363,13 @@
 
 /*Inicio Cards Skate*/
 
-
+.containerr{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
 
 .card-body{
     width: 100%;
@@ -374,7 +380,7 @@
 }
 
 .cardd{
-    width: 340px;
+    width: 330px;
     margin: 20px;
     padding: 20px;
     display: flex;
@@ -419,8 +425,6 @@
 }
 
 /*Fin Cards Skate*/
-
-
 
 
 
